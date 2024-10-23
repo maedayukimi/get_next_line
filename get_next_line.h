@@ -6,12 +6,17 @@
 /*   By: mawako <maedayukimi@42.fr>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/29 13:59:42 by mawako            #+#    #+#             */
-/*   Updated: 2024/10/16 16:29:45 by mawako           ###   ########.fr       */
+/*   Updated: 2024/10/23 11:54:07 by mawako           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdint.h>
